@@ -1,0 +1,370 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  height: 12vmax;
+  background-color: black;
+  color: white;
+}
+
+img {
+  height: 10rem;
+  width: 10rem;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.ObcionesCabezera {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vmax;
+  width: 100vmax;
+  flex-wrap: nowrap;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.4rem;
+  width: 24.5rem;
+  background-color: rgb(17, 30, 56);
+
+  & input {
+    height: 2.1rem;
+    width: 20rem;
+    background: transparent;
+    border: transparent;
+    background-color: rgb(17, 30, 56);
+  }
+}
+
+input::placeholder {
+  font-size: 1.2em;
+}
+
+input:active {
+  border-color: transparent;
+}
+
+.ImagenLupa {
+  height: 2rem;
+  width: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #fd7e14;
+  height: 3rem;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    height: 3rem;
+    width: 100vmax;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    border: 1px solid;
+    font-family: "Saira Semi Condensed", sans-serif;
+  }
+}
+
+.cabezaTop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vmax;
+  height: 6vmax;
+}
+
+.obciones-carrito {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 12rem;
+
+  & .Perfil {
+    display: flex;
+    justify-content: right;
+    align-items: top;
+    height: 3rem;
+    width: 3rem;
+    font-size: 0.9rem;
+    background-image: url(Imagenes/Usuario\ neustro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  & .carrito-compra {
+    display: flex;
+    justify-content: right;
+    align-items: top;
+    height: 3rem;
+    width: 3rem;
+    font-size: 0.9rem;
+    color: white;
+    background-image: url(Imagenes/iconocompras.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+body {
+  background-color: rgb(33, 37, 41);
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.oscuro {
+  background-color: rgb(140, 130, 115);
+  color: white;
+}
+
+.Contenedor-articulos {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.ConteinerProdutos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 15.0725rem);
+  grid-template-rows: repeat(3, 24.2625rem);
+  height: 62.25rem;
+  width: 70rem;
+  row-gap: 5px;
+  column-gap: 0.0625rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.Produt {
+  width: 11.7481rem;
+  height: 25.4971rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.325rem;
+
+  h2 {
+    font-size: 1.1rem;
+    margin: 0rem;
+  }
+
+  .Precio {
+    font-size: 1rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .cuotas {
+    border: 1px solid;
+    text-align: center;
+  }
+
+  .ProductoCompra {
+    background-color: black;
+    color: wheat;
+    text-decoration: none;
+    padding: 1rem;
+    height: 1rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.ImagenConteiner img {
+  height: 12rem;
+  width: 187.95px;
+}
+
+footer {
+  background-color: black;
+  height: 15rem;
+}
+
+.opciones {
+  height: 60rem;
+  width: 20rem;
+  display: flex;
+  justify-content: top;
+  align-items: end;
+  flex-direction: column;
+  gap: 10px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: bold;
+  font-size: 0.8rem;
+
+  h2 {
+    margin-top: 1.25rem;
+    font-size: 1.5rem;
+  }
+}
+
+.colores-selecion {
+  height: 17rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  gap: 0.6rem;
+
+  h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}
+
+.color {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 1.1rem;
+  gap: 0.4rem;
+  input {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+}
+
+.CarritoDecompras {
+  height: 59.25rem;
+  width: 31.125rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: antiquewhite;
+  border: 1px solid;
+
+  .CabezeraCarrito {
+    background-color: aqua;
+    height: 8rem;
+
+    width: 31rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    font-family: "Saira Semi Condensed", sans-serif;
+  }
+
+  .Cerrar {
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid;
+  }
+
+  hr {
+    width: 2rem;
+  }
+}
+
+.CarritoDecompras-cuerpo {
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  overflow: scroll;
+
+}
+
+
+.ProdutSelecionado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 30rem;
+  background-color: green;
+
+
+  img {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  hr {
+    width: 301rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+.Produtinformacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+/*
+
+ <div class="Produt">
+            <div class="ImagenConteiner">
+              <img src="ImagenesProductos/remera1.webp" />
+            </div>
+            <h2>REMERA SEET</h2>
+            <span class="Precio">$19.200 </span>
+            <p class="cuotas">3 cuotas sin interés de $6.400</p>
+
+            <a href="#" class="ProductoCompra">Agregar al carrito</a>
+          </div>
+
+
+          */
+
+.Modo {
+  height: 3rem;
+  width: 3rem;
+  background-image: url(iconos/sol);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
